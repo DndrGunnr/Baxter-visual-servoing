@@ -1,10 +1,10 @@
 # Baxter Robot Arm Visual Servoing Control
 
-This repository contains code and resources for task-based control of the Baxter robot arm, developed as part of an advanced robotics lab. The goal is to implement visual servoing to control Baxter’s arm, first in a simulated environment (using CoppeliaSim) and then on a real Baxter robot.
+This repository contains code and resources for task-based control of the Baxter robot arm, developed as part of a Task-based Control lab. The goal is to implement visual servoing to control Baxter’s arm, first in a simulated environment (using CoppeliaSim).
 
 ## Project Overview
 
-In this lab, we control Baxter’s arm to center a colored sphere in its camera view at a defined distance. This involves computing joint velocities to perform classical visual servoing and handling joint constraints to avoid unnecessary rotations and joint limits.
+In this lab, we control Baxter’s arm to center a colored sphere in its camera view at a defined distance. This involves computing joint velocities to perform classical visual servoing and handling joint constraints to avoid unnecessary rotations, visual constraints and joint limits.
 
 Key tools:
 - **CoppeliaSim**: For Baxter robot simulation.
@@ -45,5 +45,9 @@ Key tools:
 
   5. Command Execution and Visualization:
         - The computed joint velocities are sent to the Baxter robot to adjust its arm’s position and orientation.
-        - Finally, the program visualizes the current error values to monitor the progress of the visual servoing task.
+
+
+https://github.com/user-attachments/assets/74888932-a2f1-4250-aac6-e9fabf5d71b6
+
+
 
